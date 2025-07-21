@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load model dan label encoders
-model = joblib.load("model.pkl")
+model = joblib.load("models/model.pkl")  
 label_encoders = joblib.load("label_encoders.pkl")
 
 st.title("Klasifikasi Studi Kasus")
